@@ -5,7 +5,7 @@ class Car : public Product {
 private:
 	int price_initial;
 public:
-	int getCost();
+	int getCost() override;
 	Car(std::string name, unsigned int year, int price);
 };
 
